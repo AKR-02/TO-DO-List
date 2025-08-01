@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do application</title>
-</head>
-<body>
-    <div>
-        <h1>To Do List</h1>
-        <input type="text" id="taskInput" placeholder="Enter a new task">
-        <button onclick="addTask()">Add Task</button>
-        <ul id="taskList"></ul>
-    </div>
-    <script>
-        let tasks = []
+let tasks = []
 
         function addTask() {
             const taskInput = document.getElementById('taskInput');
@@ -50,8 +35,3 @@
                 taskList.appendChild(li);
             })
         }
-        
-
-    </script>
-</body>
-</html>
