@@ -2,19 +2,44 @@ body{
     font-family: sans-serif;
 }
 .container-1{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 5px solid;
+}
+.container-inner{
+    width: 100%;
+    min-width: 200px;
+    max-width: 1000px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+}
+.container-inner button{
+    border-radius: 10px;
+    border: 2px solid;
+    cursor: pointer;
 }
 #taskInput{
-    width: 100%;
+    width: 900px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 20px;
     border: 1px solid #ccc;
-    padding: 0 10px;
+    padding: 10px;
     font-size: 24px;
     box-sizing: border-box;
+}
+#taskList{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+#tasklist button {
+    cursor: pointer;
 }
