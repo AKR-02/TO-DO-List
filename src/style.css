@@ -1,6 +1,9 @@
 body{
     font-family: Arial, sans-serif;
     background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    background-size: border-box;
 }
 .animation {
     position: fixed;
@@ -70,12 +73,12 @@ body{
     box-sizing: border-box;
 }
 #taskList{
-    width: 100%;
+    width: 80%;
     list-style-type: none;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     gap: 20px;
+    border: 1px solid #ccc;
 }
 #taskList button {
     cursor: pointer;
