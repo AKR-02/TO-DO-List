@@ -1,9 +1,10 @@
 # TO-DO-List
 I'm open to suggestions 
 Uploaded This Small project on vercel check it out on: https://to-do-list-seven-mocha-31.vercel.app/
+
 📝 Simple To-Do List App with Live Clock & Animated Background
 📌 Overview
-A lightweight and responsive To-Do List web app built using plain JavaScript (no frameworks), featuring:
+A lightweight To-Do List web app built using plain JavaScript (no frameworks), featuring:
 
 ✍️ Add, edit, and delete tasks
 
